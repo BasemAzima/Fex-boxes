@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.one, .two, .three, .four, .five, .six, .seven {
+    height: 150px;
+}
+.one, .two, .six, .seven {
+    width: 50%;
+}
+
+.three, .four, .five {
+    width: 33.33%;
+}
+
+.one {
+    background-color:rgb(120, 6, 173);
+}
+
+.two {
+    background-color: magenta;
+}
+
+.three {
+    background-color: rgb(103, 61, 182);
+}
+
+.four {
+    background-color: green;
+}
+
+.five {
+    background-color: yellow;
+}
+
+.six {
+    background-color:orange;
+}
+
+.seven {
+    background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+.one, .two, .three, .four, .five, .six, .seven {
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 800px) {
+.one, .two, .six, .seven {
+    width: 100%;
+}
